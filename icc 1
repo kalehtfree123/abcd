@@ -1,0 +1,8 @@
+import tkinter as AB
+
+ventana=AB.Tk()
+ventana.title("primera ventana")
+
+ventana.geometry("600x520+200+50")
+
+
