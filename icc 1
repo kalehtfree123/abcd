@@ -6,3 +6,11 @@ ventana.title("primera ventana")
 ventana.geometry("600x520+200+50")
 
 
+etiqueta1=AB.Label(ventana,text="Proyecto",bg="black",fg="white")
+etiqueta1.pack(fill=AB.X)
+grupos=AB.StringVar(ventana)
+opciones=["Grupo A","Grupo B","Grupo C","Grupo D","Grupo E","Grupo F","Grupo G","Grupo H"]
+opcion=AB.OptionMenu(ventana,grupos,*opciones)
+opcion.config(width=20)
+opcion.pack(side="left",padx=30,pady=30)
+
