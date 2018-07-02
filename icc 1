@@ -13,4 +13,10 @@ opciones=["Grupo A","Grupo B","Grupo C","Grupo D","Grupo E","Grupo F","Grupo G",
 opcion=AB.OptionMenu(ventana,grupos,*opciones)
 opcion.config(width=20)
 opcion.pack(side="left",padx=30,pady=30)
+G1=AB.Label(ventana,text="Grupo seleccionado",bg="pink",fg="white")
+G1.pack(padx=5,pady=5)
+Rusia=AB.Label(ventana,bg="plum",textvariable=grupos,padx=5,pady=5,width=50)
+Rusia.pack()
 
+
+ventana.mainloop()
